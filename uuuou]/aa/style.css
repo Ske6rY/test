@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; 
+}
+
+header {
+    font-size: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 20px 200px 0px ;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 100px;
+}
+#container-1 {
+    text-align: center;
+    padding: 300px 20px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white
+}
+#container-2 {
+    text-align: center;
+    padding: 300px 20px;
+    color: #ffffff;
+    background-image: url(img/Army_Of_God_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#container-3 {
+    text-align: center;
+    padding: 300px 20px;
+    color: #000000;
+    background-color: white;
+}
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 240px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-about,
+.footer-contact,
+.footer-follow {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-follow .social-icons a {
+    margin-right: 10px;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
